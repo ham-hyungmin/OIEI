@@ -24,7 +24,7 @@ with col3:
 if st.button("🎰 돌리기!", use_container_width=True):
     # 긴장감을 위한 짧은 로딩 효과
     with st.spinner("돌아가는 중..."):
-        time.sleep(0.5)
+        time.sleep(0.7)
         
     # 1부터 9까지의 숫자 중 무작위로 3개 선택
     st.session_state.reels = [random.randint(1, 9) for _ in range(3)]
