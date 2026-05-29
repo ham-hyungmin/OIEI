@@ -3,7 +3,7 @@ import random
 import time
 
 st.title("🎰 리얼 777 슬롯머신 🎰")
-st.write("버튼을 눌러 도박의 늪에 들어오세요!")
+st.write("777")
 
 # 1. 숫자가 표시될 빈 공간(컨테이너)을 먼저 만들어둡니다.
 placeholder = st.empty()
